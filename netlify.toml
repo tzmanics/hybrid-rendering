@@ -1,0 +1,3 @@
+[build]
+  publish = "dist/hybrid-rendering/browser"
+  command = "yarn prerender && yarn build:ssr"
